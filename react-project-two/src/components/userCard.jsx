@@ -9,7 +9,7 @@ const UserCard = (props) => {
   return (
     <div className='user-container'  id='title'> 
        <p>{props.name}</p>
-       <img src={profilepic}  alt="love" id='user-image'/>
+       <img src={props.image}  alt={love} id='user-image'/>
        <p id='user-description'>description of love babbar</p>
     </div>
   )
