@@ -6,6 +6,6 @@ import navbar from './components/navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <navbar />
+    <App/>
   </StrictMode>,
 )
