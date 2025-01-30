@@ -1,12 +1,15 @@
 import React from 'react'
+import './counter.css'
 
-const counter = () => {
+
+const Counter = () => {
+    const [count,setCount] = useState(0);
   return (
     <div className='counter-container'>
-         <p id='para'>you have clicked 0 times</p>
-         <button id='button'>click me</button>
+         <p id='para'>you have clicked {count} times</p>
+         <button id='button' onClick={()=>{setCount(count+1)}}>click me</button>
     </div>
   )
 }
 
-export default counter
+export default Counter
