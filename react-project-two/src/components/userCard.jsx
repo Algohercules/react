@@ -5,10 +5,10 @@ import "./userCard.css"
 
 
 
-const UserCard = () => {
+const UserCard = (props) => {
   return (
     <div className='user-container'  id='title'> 
-       <p>adarsh rai</p>
+       <p>{props.name}</p>
        <img src={profilepic}  alt="love" id='user-image'/>
        <p id='user-description'>description of love babbar</p>
     </div>
