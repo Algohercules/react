@@ -9,7 +9,7 @@ function App() {
       <div className="container">
         <UserCard/>
         <UserCard/>        
-        <UserCard/>          
+        <UserCard/>        
       </div>
     </>
   )
