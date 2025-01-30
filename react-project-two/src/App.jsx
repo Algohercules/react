@@ -1,4 +1,5 @@
-
+import UserCard from "./components/userCard"
+import userCard from "./components/userCard"
 
 function App() {
 
@@ -6,11 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <p>
-          <h1>
-            hello ji
-          </h1>
-        </p>
+        <UserCard/>          
       </div>
     </>
   )
