@@ -7,6 +7,8 @@ function App() {
   return (
     <>
       <div>
+        <UserCard/>
+        <UserCard/>        
         <UserCard/>          
       </div>
     </>
