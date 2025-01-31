@@ -1,0 +1,12 @@
+#user-img{
+    height: 10%;
+    width: 10%;
+}
+
+.user-container{
+      background-color: rgb(162, 23, 23);
+      padding: 25px;
+      display: flex; 
+      flex-wrap: wrap;
+      gap: 20px;
+}

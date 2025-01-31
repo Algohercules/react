@@ -1,12 +1,17 @@
-import UserCard from "./components/UserCard"
+import UserCard from './components/UserCard'
 
 function App() {
  
 
   return (
-    
-          <UserCard/>
-      
+    <div>
+       <UserCard/>
+
+       <UserCard/>
+
+       <UserCard/>
+
+    </div>
           
     
   )
