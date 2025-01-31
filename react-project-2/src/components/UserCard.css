@@ -1,12 +1,23 @@
 #user-img{
     height: 10%;
     width: 10%;
+    border-radius: 50%;
+
 }
 
+
 .user-container{
-      background-color: rgb(162, 23, 23);
+      background-color: rgb(224, 183, 183);
       padding: 25px;
-      display: flex; 
-      flex-wrap: wrap;
-      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem;
+      gap:1.5rem;
+      color: black;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 300;
 }
+
+

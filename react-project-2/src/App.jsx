@@ -5,11 +5,11 @@ function App() {
 
   return (
     <div>
-       <UserCard/>
+       <UserCard name="adarsh" desc="desc1"    />
 
-       <UserCard/>
+       <UserCard  name="maharana" desc="desc2" />
 
-       <UserCard/>
+       <UserCard name="prithviraaj"  desc="desc3" />
 
     </div>
           
