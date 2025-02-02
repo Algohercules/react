@@ -14,6 +14,7 @@ const [name,setName] = useState('');
   return (
     <div>
       <Card name={name} setName={setName}/>
+      <p>i am inside parent component and the value of component is {name}</p>
     </div>
   )
 }
