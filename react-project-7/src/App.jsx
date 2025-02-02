@@ -1,10 +1,16 @@
 
 function App() {
-  const [count, setCount] = useState(0)
+
+function handleClick(){
+        alert ("i am clicked")
+}
+
 
   return (
     <div>
-      hello ji
+      <button onClick={handleClick}>
+          click me  
+      </button>
     </div>
   )
 }
