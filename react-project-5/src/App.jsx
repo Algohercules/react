@@ -13,7 +13,7 @@ const [name,setName] = useState('');
 
   return (
     <div>
-      <Card name={name}/ setName={setName}>
+      <Card name={name} setName={setName}/>
     </div>
   )
 }
