@@ -16,13 +16,13 @@ function App() {
           </Button> */}
 
           
-       <Card name='love babbar'>
+       {/* <Card name='love babbar'>
         <h1> best web dev course</h1>
         <p>trying to be consistent in this</p>
         <p>
           will complete this course soon
         </p>
-        </Card>
+        </Card> */}
    </div>
   )
 }
