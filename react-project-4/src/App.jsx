@@ -11,18 +11,18 @@ function App() {
 
   return (
    <div>
-        <Button handleClick = {handleClick} text="clickk me">
+        {/* <Button handleClick = {handleClick} text="clickk me">
           <h1>{count} </h1>
-          </Button>
+          </Button> */}
 
           
-       {/* <Card name='love babbar'>
+       <Card name='love babbar'>
         <h1> best web dev course</h1>
         <p>trying to be consistent in this</p>
         <p>
           will complete this course soon
         </p>
-        </Card> */}
+        </Card>
    </div>
   )
 }
