@@ -1,6 +1,7 @@
 
 import { useEffect } from 'react'
 import './App.css'
+import { useState } from 'react'
 
 
 function App() {
@@ -24,13 +25,23 @@ function App() {
   useEffect(() => {
         alert("i will run on each render")
   })
-  
+   
+const [count, setCount] = useState(0);
 
+function handleClick() {
+  setCount(count+1)
+}
+
+//useEffect hook har bar renddr hone se pehle use ho jata hai
 
 
 return (
     <div>
-        hello ji
+        <button onClick={handleClick}>
+          click me
+        </button>
+        <br />
+        count is : {count}
     </div>
   )
 }
