@@ -5,7 +5,17 @@ import { useEffect } from 'react'
 
 function App() {
 
-useEffect()
+  //first --> side-effect function
+  //second --> clean up function
+  //third -->  comma separated dep list
+
+useEffect(()=>{
+  first 
+
+  return() =>{
+    second
+  }
+}, [third])
 
   return (
     <div>
