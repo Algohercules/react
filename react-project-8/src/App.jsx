@@ -25,6 +25,10 @@ function App() {
   // useEffect(() => {
   //       alert("i will run on each render")
   // })
+
+
+  //variation:2
+  //runs on only first render
    
 
 
