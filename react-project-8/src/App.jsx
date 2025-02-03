@@ -44,9 +44,24 @@ function App() {
 //variation : 4
 //multiple dependencies
 
-useEffect(() => {
-   alert("i will everytime when count/total is updated")
-}, [count, total])
+// useEffect(() => {
+//    alert("i will everytime when count/total is updated")
+// }, [count, total])
+
+
+
+//variation:5
+// is baar lets add cleanup  function
+useEffect(() =>{
+    alert("count is updated")
+
+    return() => {
+      alert("count is updated on ui")
+    }
+  },
+
+[count])
+
 
 
 
