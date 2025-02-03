@@ -1,7 +1,7 @@
 
 import { useEffect } from 'react'
 import './App.css'
-import { useEffect } from 'react'
+
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
         alert("i will run on each render")
-  },)
+  })
   
 
 
