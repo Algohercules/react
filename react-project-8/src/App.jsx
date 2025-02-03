@@ -9,15 +9,26 @@ function App() {
   //second --> clean up function
   //third -->  comma separated dep list
 
-useEffect(()=>{
-  first 
+// useEffect(()=>{
+//   first 
 
-  return() =>{
-    second
-  }
-}, [third])
+//   return() =>{
+//     second
+//   }
+// }, [third])
 
-  return (
+
+// variation:1
+  //runs on every render
+
+  useEffect(() => {
+        alert("i will run on each render")
+  },)
+  
+
+
+
+return (
     <div>
         hello ji
     </div>
