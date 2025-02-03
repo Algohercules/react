@@ -30,10 +30,11 @@ function App() {
   //variation:2
   //runs on only first render
    
-useEffect(() => {
-   alert("i will run on only first render")
-}, [])
+// useEffect(() => {
+//    alert("i will run on only first render")
+// }, [])
 
+//variation : 3
 
 
 
