@@ -35,6 +35,9 @@ function App() {
 // }, [])
 
 //variation : 3
+useEffect(() => {
+      alert("i will run everytime the count is updated")
+}, [count])
 
 
 
