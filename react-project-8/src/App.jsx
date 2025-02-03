@@ -42,13 +42,29 @@ function App() {
 
 
 //variation : 4
+//multiple dependencies
+
+useEffect(() => {
+
+}, [third])
+
 
 
 const [count, setCount] = useState(0);
+const [total, setTotal] = useState(1)
 
 function handleClick() {
   setCount(count+1)
+  setTotal(total+1)
 }
+
+
+function handleClickTotal(){
+  setTotal(total+1)
+
+}
+
+
 
 //useEffect hook har bar renddr hone se pehle use ho jata hai
 
@@ -56,10 +72,20 @@ function handleClick() {
 return (
     <div>
         <button onClick={handleClick}>
-          click me
+          update count
         </button>
         <br />
         count is : {count}
+
+<br />
+<br />
+<br />
+
+        <button onClick={handleClickTotal}>
+          update total
+        </button>
+        <br />
+        total  is : {total}
     </div>
   )
 }
