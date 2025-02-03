@@ -22,10 +22,14 @@ function App() {
 // variation:1
   //runs on every render
 
-  useEffect(() => {
-        alert("i will run on each render")
-  })
+  // useEffect(() => {
+  //       alert("i will run on each render")
+  // })
    
+
+
+
+
 const [count, setCount] = useState(0);
 
 function handleClick() {
