@@ -45,8 +45,8 @@ function App() {
 //multiple dependencies
 
 useEffect(() => {
-
-}, [third])
+   alert("i will everytime when count/total is updated")
+}, [count, total])
 
 
 
@@ -55,7 +55,7 @@ const [total, setTotal] = useState(1)
 
 function handleClick() {
   setCount(count+1)
-  setTotal(total+1)
+  
 }
 
 
