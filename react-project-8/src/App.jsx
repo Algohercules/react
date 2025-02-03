@@ -35,10 +35,13 @@ function App() {
 // }, [])
 
 //variation : 3
-useEffect(() => {
-      alert("i will run everytime the count is updated")
-}, [count])
+// useEffect(() => {
+//       alert("i will run everytime the count is up")
+// }, [count])
 
+
+
+//variation : 4
 
 
 const [count, setCount] = useState(0);
