@@ -6,6 +6,12 @@ import { useState } from 'react'
 
 function App() {
 
+
+  
+
+const [count, setCount] = useState(0);
+const [total, setTotal] = useState(1)
+
   //first --> side-effect function
   //second --> clean up function
   //third -->  comma separated dep list
@@ -58,15 +64,10 @@ useEffect(() =>{
     return() => {
       alert("count is updated on ui")
     }
-  },
-
-[count])
+  },[count])
 
 
 
-
-const [count, setCount] = useState(0);
-const [total, setTotal] = useState(1)
 
 function handleClick() {
   setCount(count+1)
