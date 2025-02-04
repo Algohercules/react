@@ -58,13 +58,13 @@ const [total, setTotal] = useState(1)
 
 //variation:5
 // is baar lets add cleanup  function
-useEffect(() =>{
-    alert("count is updated")
+// useEffect(() =>{
+//     alert("count is updated")
 
-    return() => {
-      alert("count is updated on ui")
-    }
-  },[count])
+//     return() => {
+//       alert("count is updated on ui")
+//     }
+//   },[count])
 
 
 
