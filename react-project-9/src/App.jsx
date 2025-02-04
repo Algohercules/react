@@ -4,6 +4,8 @@ import ChildA from './components/ChildA';
 import './App.css'
 import { useState } from 'react';
 
+import provider from 'react';
+
 
 
 
@@ -24,12 +26,12 @@ function App() {
   const [user,setUser] = useState({name:"love"})
   return (
     <>
-    <div>
+  
         <userContext.provider value={user}>
           <ChildA />
         </userContext.provider>
 
-    </div>
+  
     </>
   )
 }
