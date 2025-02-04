@@ -20,7 +20,10 @@ function App() {
 
   return (
     <div>
-        <ChildA/>
+        <userContext.provider>
+          <ChildA/>
+        </userContext.provider>
+
     </div>
   )
 }
