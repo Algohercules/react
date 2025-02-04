@@ -1,4 +1,6 @@
 import { createContext } from 'react'
+import ChildA from './components/ChildA';
+
 import './App.css'
 
 function App() {
@@ -13,7 +15,7 @@ function App() {
 
   return (
     <div>
-        hello ji
+        <ChildA/>
     </div>
   )
 }
