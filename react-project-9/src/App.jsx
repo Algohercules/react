@@ -5,7 +5,12 @@ import './App.css'
 
 function App() {
 
+
+  //step 1:  create context
   const userContext = createContext();
+
+//step 2: wrap all the child inside a provider
+
 
 // use context hook (prop drilling)
 //create 
