@@ -27,9 +27,9 @@ function App() {
   return (
     <>
   
-        <userContext.provider value={user}>
+        <userContextserContext.provider value={user}>
           <ChildA />
-        </userContext.provider>
+        </userContextserContext.provider>
 
   
     </>
