@@ -12,7 +12,7 @@ import { useState } from 'react';
 
 //step 2: wrap all the child inside a provider
 //step 3: passing value
-//s
+//step 4:consumer ke andar jaake consume kr lo
 
 
 // use context hook (prop drilling)
