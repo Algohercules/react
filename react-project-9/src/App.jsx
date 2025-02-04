@@ -1,10 +1,11 @@
-
+import { createContext } from 'react'
 import './App.css'
 
 function App() {
 
+  const userContext = createContext();
 
-// use contexrt hook (prop drilling)
+// use context hook (prop drilling)
 //create 
 //provide
 //consume
