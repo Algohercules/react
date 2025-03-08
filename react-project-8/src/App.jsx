@@ -67,8 +67,6 @@ const [total, setTotal] = useState(1)
 //   },[count])
 
 
-
-
 function handleClick() {
   setCount(count+1)
   
@@ -79,8 +77,6 @@ function handleClickTotal(){
   setTotal(total+1)
 
 }
-
-
 
 //useEffect hook har bar renddr hone se pehle use ho jata hai
 
